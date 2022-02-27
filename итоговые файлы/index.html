@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow, noodp">
+	<meta name="googlebot" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	
+	
+	<!-- favicons -->
+	
+	<title></title>
+	
+</head>
+<body>
+
+
+	<div class="page">
+
+		 <!-- Content -->
+		<main class="main-content">
+			
+			
+			<button class="button  click_btn">Кликни</button>
+			
+			<section class="pop_up__container  hide">
+			    <div class="pop_up__background">
+			        <div class="pop_up  flex  flex flex_space_between">
+			
+			            <button class="close_modal" type="button" >
+			                <span class="close_part"></span>
+			                <span class="close_part"></span>
+			            </button>
+			
+			            <h1 class="title">Получите набор файлов<br>для руководителя:</h1>
+			
+			            <div class="pop_up__images  flex">
+			                
+			                <div class="main_img__conateiner">
+			                    <picture>        
+						            <source media="(min-width: 900px)"
+						                srcset="assets/img/pop_up/main.png">
+						            <img class="img"
+						                src="assets/img/pop_up/main_mobile.png"
+						                alt="">
+						        </picture>
+			                </div>
+			
+			                <ul class="files_icons_list  list_style_none  flex">
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/doc.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/xls.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/pdf.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/pdf.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/pdf.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/pdf.png" alt="" class="img">
+			                    </li>
+			
+			                    <li class="icon_container">
+			                        <img src="assets/img/pop_up/icons/pdf.png" alt="" class="img">
+			                    </li>
+			                </ul>
+			            </div>    
+			            
+			            <form  class="form flex" action="mail.php" enctype="text/plain">
+			                <label class="label" for="email">Введите Email для получения файлов:</label>
+			                <input class="input email" type="email" name="email" id="email" placeholder="E-mail">
+			
+			                <label class="label" for="tel">Введите телефон для подтверждения доступа:</label>
+			                <input class="input tel" type="tel" name="tel" id="tel" required placeholder="+7 (000) 000-00-00">
+			
+			                <div class="mess_success"></div>  
+			                <div class="mess_err"></div> 
+			
+			                <button class="button  submit_btn" type="submit">
+			                    <p class="flex">
+			                        <span>Скачать файлы</span>
+			
+			                        <span class="btn_icon__container">
+			                            <img class="img" src="assets/img/pop_up/icons/hand.png" alt="" >
+			                        </span>
+			                    </p>
+			                    
+			                </button>
+			
+			                <ul class="files_type_list  list_style_none">
+			                    <li>
+			                        <p>PDF 4,7 MB</p>
+			                    </li>
+			
+			                    <li>
+			                        <p>DOC 0,8 MB</p>
+			                    </li>
+			
+			                    <li>
+			                        <p>XLS 1,2 MB</p>
+			                    </li>
+			                </ul>
+			            </form>
+			        </div>
+			    </div>
+			</section>
+			
+		</main>
+		
+	</div>
+
+	<script src="assets/js/bundle.js"></script>
+</body>
+</html>
